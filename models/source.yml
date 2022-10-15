@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+    - name: sources
+      database: northwind
+      schema: public
+      tables:
+        - name: categories
+        - name: products
+        - name: suppliers
+        - name: employees
+        - name: order_details
+        - name: customers
+        - name: orders
+        - name: shippers
